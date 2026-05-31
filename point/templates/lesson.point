@@ -1,0 +1,99 @@
+@lesson Welcome
+
+@meta
+difficulty: beginner
+duration: 20m
+
+@end
+
+@goals
+
+Learn what Point is
+Understand lesson structure
+Explore educational blocks
+Test diagrams and code examples
+
+@end
+
+@section Introduction
+
+Point is a learning-first documentation framework.
+
+It transforms structured educational content into a modern documentation website powered by VitePress.
+
+@end
+
+@term Lesson
+
+A single unit of learning content in Point.
+
+@end
+
+@concept Educational Framework
+
+A framework designed specifically for teaching and learning.
+
+@end
+
+@definition Knowledge Graph
+
+A graph representation of concepts and their relationships.
+
+@end
+
+@note
+
+Point encourages small, focused lessons.
+
+@end
+
+@tip
+
+Keep each lesson centered around one core concept.
+
+@end
+
+@warning
+
+Avoid creating lessons that cover too many unrelated topics.
+
+@end
+
+@bestpractice
+
+Use terms, concepts, and definitions consistently throughout a course.
+
+@end
+
+@section How Point Works
+
+A Point lesson goes through several stages before becoming a webpage.
+
+@end
+
+@diagram mermaid
+
+graph TD
+Source[.point File] --> Tokenizer
+Tokenizer --> Parser
+Parser --> AST
+AST --> Compiler
+Compiler --> Markdown
+Markdown --> Website
+
+@end
+
+@code python
+
+def greet(name: str) -> None:
+	print(f"Hello, {name}")
+
+greet("Point")
+
+@end
+
+@summary
+
+You have explored the core building blocks of Point, including lessons, concepts, definitions, diagrams, and code examples.
+
+@end
